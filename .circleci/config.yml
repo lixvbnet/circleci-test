@@ -4,6 +4,7 @@ jobs:
   hello:
     docker:
       - image: cimg/base:stable
+    resource_class: small
     steps:
       - run: echo "Hello, CircleCI!"
 
